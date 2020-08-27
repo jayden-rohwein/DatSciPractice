@@ -127,6 +127,19 @@ np.multiply.outer(x,x)
 #
 
 
+x =
+[[5 0 3 3 ] 
+ [7 9 3 5 ]
+ [2 4 7 6 ]]
+
+np.count_nonzero(x < 6)
+np.sum(x < 6) 
+np.sum(x < 6, axis=1)
+np.any(x > 8)
+np.all( x == 6, axis=0)
+
+
+
 
 
 

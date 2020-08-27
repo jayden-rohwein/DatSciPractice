@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt 
 import seaborn;seaborn.set()
 
-data = pd.read_csv('president_heights.csv')
+data = pd.read_csv('chapter_02/president_heights.csv')
 heights = np.array(data['height(cm)'])
 
 print(heights)
@@ -19,5 +19,5 @@ plt.hist(heights)
 plt.title('Height Distribution of US Presidents')
 plt.xlabel('height(cm)')
 plt.ylabel('number')
-plt.savefig("pres_heights.png")
+plt.savefig("chapter_02/pres_heights.png")
 
